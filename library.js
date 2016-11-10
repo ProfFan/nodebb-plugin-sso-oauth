@@ -40,10 +40,10 @@
 				consumerSecret: ''
 			},
 			oauth2: {
-				authorizationURL: '',
-				tokenURL: '',
-				clientID: '',
-				clientSecret: ''
+				authorizationURL: 'https://github.com/login/oauth/authorize',
+				tokenURL: 'https://github.com/login/oauth/access_token',
+				clientID: '===NSFW===',
+				clientSecret: '===NSFW==='
 			},
 			userRoute: ''	// This is the address to your app's "user profile" API endpoint (expects JSON)
 		}),
