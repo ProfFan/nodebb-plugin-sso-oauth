@@ -30,8 +30,8 @@
 	var authenticationController = module.parent.require('./controllers/authentication');
 
 	var constants = Object.freeze({
-			type: '',	// Either 'oauth' or 'oauth2'
-			name: '',	// Something unique to your OAuth provider in lowercase, like "github", or "nodebb"
+			type: 'oauth2',	// Either 'oauth' or 'oauth2'
+			name: 'github',	// Something unique to your OAuth provider in lowercase, like "github", or "nodebb"
 			oauth: {
 				requestTokenURL: '',
 				accessTokenURL: '',
